@@ -5,11 +5,13 @@ import App from './App.jsx'
 import About from './About.jsx'
 import Project from './Project.jsx'
 import Plumb from './Projects/Plumb.jsx'
+import Contact from './Contact.jsx'
 import { createBrowserRouter,Route,createRoutesFromElements,RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/'  element={<App/>} >
+       <Route path='/contact'  index element={<Contact/>}/>
       <Route path='/about'  index element={<About/>}/>
       <Route path='/project' element={<Project/>}>
       <Route  index  element={<Plumb/>} />

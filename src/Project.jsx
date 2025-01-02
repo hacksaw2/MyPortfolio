@@ -37,7 +37,7 @@ const Project = () => {
     
     </div>
     <div className="n flex items-center justify-center mt-10">
-    <button className='bg-gradient-to-b from-green-700 to-green-400 text-white text-lg p-4 w-[15vw] border-2 rounded-lg shadow-slate-500 shadow-lg' onClick={scrollbar1}>GoTo bottom</button>
+    <button className='bg-gradient-to-b from-green-700 to-green-400 text-white text-lg p-4 lg:w-[15vw] border-2 rounded-lg shadow-slate-500 shadow-lg' onClick={scrollbar1}>GoTo bottom</button>
     </div>
     </div>
     <div className="outlet  ">

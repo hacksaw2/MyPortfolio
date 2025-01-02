@@ -30,7 +30,7 @@ const Plumb = () => {
 
   return (
     <div className='slide-container w-[100vw] bg-gradient-to-tr  from-blue-600 via-purple-400 to-gray-500 p-[20vh]'>
-      <div className="slide1 h-[100vh]">
+      <div className="slide1 h-[60vh]">
       <Slide>
         {
           ImageSlider.map((image,index)=>(
@@ -45,7 +45,7 @@ const Plumb = () => {
       </Slide>
       </div>
 
-      <div className="slide2 h-[100vh]">
+      <div className="slide2 h-[60vh]">
       <Slide>
         {
           ImageSlider.map((image,index)=>(

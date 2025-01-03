@@ -1,6 +1,8 @@
 import React from 'react';
 import MernIcon from './Svgs/MernIcon';
 import video1 from "./logo.mp4"
+import Image1 from "./PortfolioImage.png"
+
 const About = () => {
   return (
     <div className='bg-gray-300 h-full '>
@@ -35,8 +37,9 @@ const About = () => {
         <div className="content2 text-5xl  h-[100vh] lg:w-[50vw] flex justify-center   text-center  lg:mt-0   ">
           <div className="nooo border-[1px] w-[95vw] border-blue-300 bg-gradient-to-br from-gray-400 via-gray-300 to-slate-400  h-[70vh]   lg:w-[40vw] lg:h-[80vh] p-4 rounded-3xl shadow-2xl shadow-gray-600 lg:mt-8   ">
             <div className="m flex justify-center ">
-              <div className="profilephoto  bg-pink-400 h-52 w-48 rounded-full ">
-                s
+              <div className="profilephoto   bg-pink-400 h-52 w-48 rounded-full ">
+                <img className='h-full w-full object-cover rounded-full' src={Image1}/>
+                
               </div>
 
             </div>

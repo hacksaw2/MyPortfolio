@@ -2,6 +2,8 @@ import React from 'react'
 import { useRef } from 'react'
 import "./App.css"
 import video2 from "./Plumb.mp4"
+import video3 from "./Todos.mp4"
+import video4 from "./Blogged.mp4"
 import './App.css'
 import { NavLink, Outlet } from 'react-router-dom'
 
@@ -30,8 +32,8 @@ const Project = () => {
     <div className="container lg:flex w-[50vw]  lg-w-[70vw] lg:gap-20  ">
      
      <NavLink to='/project/Plumb'><div > <video src={video2}  className='column1 w-[50vw] lg:w-[20vw]   mt-10 ' autoPlay muted loop/><p className='pName  text-center text-xl font-bold text-green-900'>Plumb</p></div></NavLink>
-      <div ><video src={video2}  className='column1 w-[50vw] lg:w-[20vw]    mt-10 ' autoPlay muted loop/><p className='pName text-center text-xl font-bold text-red-700' >Todos</p></div>
-      <div ><video src={video2}  className='column1 w-[50vw] lg:w-[20vw]   mt-10 ' autoPlay muted loop/><p className=' pName text-center text-xl font-bold text-red-700'>Blogged</p></div>
+      <div ><video src={video3}  className='column1 w-[50vw] lg:w-[20vw]    mt-10 ' autoPlay muted loop/><p className='pName text-center text-xl font-bold text-red-700' >Todos</p></div>
+      <div ><video src={video4}  className='column1 w-[50vw] lg:w-[20vw]   mt-10 ' autoPlay muted loop/><p className=' pName text-center text-xl font-bold text-red-700'>Blogged</p></div>
     
     </div>
     

@@ -11,8 +11,12 @@ import { createBrowserRouter,Route,createRoutesFromElements,RouterProvider } fro
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/'  element={<App/>} >
-       <Route path='/contact'  index element={<Contact/>}/>
-      <Route path='/about'  index element={<About/>}/>
+ <Route   index element={<About/>}/>
+
+
+
+       <Route path='/contact'   element={<Contact/>}/>
+       <Route path='/about'  index element={<About/>}/>
       <Route path='/project' element={<Project/>}>
       <Route  index  element={<Plumb/>} />
       

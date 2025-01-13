@@ -40,7 +40,7 @@ const Contacts = () => {
 </div>
 
 
-<div className="butt bg-red-600 h-10 w-40 p-2 mt-10 text-white border-white border-2 font-serif">Download Resume</div>
+<div className="butt bg-red-600 h-10 w-40 p-2 mt-10 text-white border-white border-2 font-serif text-sm text-center">Download Resume</div>
 
 
       </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import MernIcon from './Svgs/MernIcon';
 import video1 from "./logo.mp4"
 import Image1 from "./PortfolioImage.png"
+import { NavLink } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
 
             <div className="arrow justify-center mt-36 lg:mt-8   flex">
               <video src={video1} className='  w-32 h-32  border-[2px] border-blue-800' autoPlay muted loop />
-              <div className="rectangle text-3xl w-80 h-32 border-[2px] border-blue-800 bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 flex items-center justify-center rounded-e-2xl hover:border-4 hover:text-red-600 hover:text-4xl transition-colors duration-300 ease-in">
+             <NavLink to='/project'> <div className="rectangle text-3xl w-80 h-32 border-[2px] border-blue-800 bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 flex items-center justify-center rounded-e-2xl hover:border-4 hover:text-red-600 hover:text-4xl transition-colors duration-300 ease-in">
                 GET STARTED<svg c
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -25,7 +26,7 @@ const About = () => {
                 >
                   <path d="M12 2l10 10-10 10-1.41-1.41L18.17 12H2v-2h16.17l-7.59-7.59L12 2z" />
                 </svg>
-              </div>
+              </div></NavLink>
 
 
             </div>
